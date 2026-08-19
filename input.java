@@ -18,7 +18,7 @@ public class input{
 
  //2.Complete the function printNumber which takes an integer input from the user and prints it on the screen.
 
- import java.util.Scanner;
+ /*import java.util.Scanner;
  public class input{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
@@ -26,7 +26,25 @@ public class input{
         System.out.println("num");
          System.out.println(number);
     }
- }
+ }*/
+
+//3.Given a digit d (0 to 9), find the sum of the first 50 positive integers (integers > 0) that end with digit d.
+import java.util.Scanner;
+public class input{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int d=sc.nextInt();
+        int sum=0;
+        int number= d;
+        for(int i=1;i<=50;i++){
+            sum=sum+number;
+            number=number+10;
+            System.out.println(number);
+
+        }
+
+    }
+}
 
 
 
