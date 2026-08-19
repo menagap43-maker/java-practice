@@ -1,3 +1,5 @@
+//1.Given two integers low and high, return the sum of all integers from low to high inclusive.
+
 import java.util.Scanner;
 public class input{
     public static void main(String args[]){
