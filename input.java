@@ -1,4 +1,4 @@
-//1.Given two integers low and high, return the sum of all integers from low to high inclusive.
+/*1.Given two integers low and high, return the sum of all integers from low to high inclusive.
 
 import java.util.Scanner;
 public class input{
@@ -14,4 +14,21 @@ public class input{
             System.out.println(sum);
         }
     }
-}
+}*/
+
+ //2.Complete the function printNumber which takes an integer input from the user and prints it on the screen.
+
+ import java.util.Scanner;
+ public class input{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int number=sc.nextInt();
+        System.out.println("num");
+         System.out.println(number);
+    }
+ }
+
+
+
+
+
