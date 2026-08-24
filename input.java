@@ -48,7 +48,7 @@ public class input{
 
 
 //4.Given a digit d (0 to 9), find the sum of the first 50 positive integers (integers > 0) that end with digit d.(while loop)
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class input{
     public static void main (String args[]){
         Scanner scan = new Scanner(System.in);
@@ -67,11 +67,47 @@ public class input{
 
         System.out.println("sum="+ sum);
     }
+}*/
+
+//5.Given an integer n. You need to recreate the pattern given below for any value of N. Let's say for N = 5, the pattern should look like as below:
+
+/*import java.util.Scanner;
+public class input{
+    public static void main(String args[]){
+        Scanner scan = new Scanner(System.in);
+        int n=scan.nextInt();
+        for(int i=1; i<=n; i++){
+
+            for(int j=1;j<=i;j++){
+
+            System.out.print("*");     
+            }
+        System.out.println();
+                
+    }
+
 }
+}*/
 
+// 5.Given an integer n. You need to recreate the pattern given below for any value of N. Let's say for N = 5, the pattern should look like as below: 1 12 123 1234
 
+import java.util.Scanner;
+public class input{
+    public static void main(String args[]){
+        Scanner scan = new Scanner(System.in);
+        int n=scan.nextInt();
+        for(int i=1; i<=n; i++){
 
+            for(int j=1;j<=i;j++){
 
+            System.out.print(j);     
+            }
+        System.out.println();
+                
+    }
+
+}
+}
 
 
 
