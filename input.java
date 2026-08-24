@@ -28,8 +28,8 @@ public class input{
     }
  }*/
 
-//3.Given a digit d (0 to 9), find the sum of the first 50 positive integers (integers > 0) that end with digit d.
-import java.util.Scanner;
+//3.Given a digit d (0 to 9), find the sum of the first 50 positive integers (integers > 0) that end with digit d.(for loop)
+/*import java.util.Scanner;
 public class input{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
@@ -44,7 +44,34 @@ public class input{
         }
 
     }
+}*/
+
+
+//4.Given a digit d (0 to 9), find the sum of the first 50 positive integers (integers > 0) that end with digit d.(while loop)
+import java.util.Scanner;
+public class input{
+    public static void main (String args[]){
+        Scanner scan = new Scanner(System.in);
+        int d=scan.nextInt();
+        int sum=0;
+        int number=d;
+        int i=1;
+        sum=sum+number;
+        while(i<=50){
+
+        number=number+10;
+        System.out.println(number);
+
+        i++;
+        }
+
+        System.out.println("sum="+ sum);
+    }
 }
+
+
+
+
 
 
 
