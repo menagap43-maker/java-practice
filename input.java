@@ -145,19 +145,42 @@ public class input{
 
 // 9.Write a Java program that takes one character as input and checks whether it is a digit or not.
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class input{
     public static void main(String args []){
         Scanner scan = new Scanner(System.in);
         char ch= scan.next().charAt(0);
-        if(ch>='0' && ch<='9'){
+        if(ch>='0'&& ch<='9'){
             System.out.print("digit");
         }else{
             System.out.print("not digit");;
         }
     }
     
+}*/
+//10. if there is three more use if else
+
+import java.util.Scanner;
+public class input{
+    public static void main(String args []){
+        Scanner scan = new Scanner(System.in);
+        char ch= scan.next().charAt(0);
+        if(ch>='0'&& ch<='9'){
+            System.out.print("digit");
+        }else if(ch>='A'&&ch<='Z'){
+            System.out.print("uppercase");
+        }else if(ch>='a'&&ch<='z'){
+            System.out.print("lowercase");
+        }else{
+            System.out.print("special character");
+        }
+    }
+    
 }
+
+
+
+
 
 
 
