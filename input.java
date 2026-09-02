@@ -91,7 +91,7 @@ public class input{
 
 // 6.Given an integer n. You need to recreate the pattern given below for any value of N. Let's say for N = 5, the pattern should look like as below: 1 12 123 1234
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class input{
     public static void main(String args[]){
         Scanner scan = new Scanner(System.in);
@@ -107,6 +107,40 @@ public class input{
     }
 
 }
+}*/
+
+/*if (condition) {
+    // condition is true
+} else {
+    // condition is false
+}*/
+
+//7. write the program when it is upper or lower
+/*import java.util.Scanner;
+public class input {
+    public static void main(String args[]){
+        Scanner scan= new Scanner(System.in);
+        char ch = scan.next().charAt(0);
+        if(ch >='A' && ch <='Z'){
+            System.out.print("uppercase");
+         } else{
+                System.out.print("lowercase");
+            }
+
+    }
+}*/
+
+8.import java.util.Scanner;
+public class input{
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        int salary=scan.nextInt();
+        if(salary>=100000){
+            System.out.print("enjoy the life!");
+        }else{
+            System.out.print("accept the life what you have!");
+        }
+    }
 }
 
 
